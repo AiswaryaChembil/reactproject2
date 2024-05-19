@@ -1,0 +1,6 @@
+.navbar-divider {
+  border: none;
+  height: 1px;
+  background-color: grey; 
+  margin: 0;
+}

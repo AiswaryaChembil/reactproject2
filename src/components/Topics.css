@@ -1,0 +1,28 @@
+
+.bg {
+  background-color: #FFF9E3;
+}
+
+.topic-card {
+  transition: background 0.3s ease; 
+  max-width: 300px; 
+}
+
+.topic-card:hover {
+  background: linear-gradient(45deg, red, black);
+}
+
+@media (max-width: 768px) {
+  .topic-card {
+    max-width: 250px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .topic-card {
+    max-width: 200px; 
+  }
+}
+.h-145{
+  height: 145px !important;
+}
